@@ -31,7 +31,7 @@
             this.listUsers = new System.Windows.Forms.ListBox();
             this.lblLastName = new System.Windows.Forms.Label();
             this.lblFirstName = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txt = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.btnAdd = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -63,12 +63,12 @@
             this.lblFirstName.TabIndex = 2;
             this.lblFirstName.Text = "label2";
             // 
-            // textBox1
+            // txt
             // 
-            this.textBox1.Location = new System.Drawing.Point(469, 30);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(319, 22);
-            this.textBox1.TabIndex = 3;
+            this.txt.Location = new System.Drawing.Point(469, 30);
+            this.txt.Name = "txt";
+            this.txt.Size = new System.Drawing.Size(319, 22);
+            this.txt.TabIndex = 3;
             // 
             // textBox2
             // 
@@ -94,7 +94,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txt);
             this.Controls.Add(this.lblFirstName);
             this.Controls.Add(this.lblLastName);
             this.Controls.Add(this.listUsers);
@@ -110,7 +110,7 @@
         private System.Windows.Forms.ListBox listUsers;
         private System.Windows.Forms.Label lblLastName;
         private System.Windows.Forms.Label lblFirstName;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txt;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button btnAdd;
     }
